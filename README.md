@@ -9,7 +9,7 @@ Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal
 Steps:
 1. Get .gif format of country map
 2. Set it as bg to screen 
-3. Create a csv file with list of state names
+3. Create states.csv document with list of state names
    1. Add their co-ordinates 
    #used:
    def get_mouse_click_coor(x, y):
