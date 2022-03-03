@@ -12,7 +12,6 @@ Steps:
 3. Create states.csv document with list of state names
    1. Add their co-ordinates 
    ---------------------------------------------------
-   #used:
    def get_mouse_click_coor(x, y):
      print(x, y) 
    
