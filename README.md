@@ -11,13 +11,13 @@ Steps:
 2. Set it as bg to screen 
 3. Create states.csv document with list of state names
    1. Add their co-ordinates 
-#---------------------------------------------------
+---------------------------------------------------
    def get_mouse_click_coor(x, y):
      print(x, y) 
    
    turtle.onscreenclick(get_mouse_click_coor)
    turtle.mainloop()
-#---------------------------------------------------
+---------------------------------------------------
 4. Get answer from player 
    1. Check if the answer is in states list
    2. Reveal the location of the state
