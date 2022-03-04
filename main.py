@@ -28,7 +28,9 @@ while i <= len(all_states):
         break
     i += 1
 
-learn = [state for state in all_states+answered_states if state not in all_states or state not in answered_states]
+#print(answered_states)
+learn = [item for item in all_states+answered_states if item not in answered_states]
+#print(learn)
 to_learn = pandas.DataFrame(learn)
 to_learn.to_csv("states_to_learn.csv")
 
